@@ -1,0 +1,99 @@
+
+
+@font-face{
+    font-family:font1;
+    src:url(/assest/fonts/font1.otf);
+}
+
+@font-face{
+    font-family: font2;
+    src: url(/assest/fonts/font2.ttf);
+}
+   
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(227, 248, 254);
+}
+
+#container {
+    width: 100%;
+    
+    /* border: 3px solid rgb(250, 0, 0); */
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    /* display:flex;
+    justify-content:space-between;
+    align-items: center;
+ */
+}
+#earthImg{
+    width: 50%;
+    height: 50%;
+}
+
+#Earth {
+    /* border: 3px solid black; */
+    width: 100%;
+
+}
+
+#inputssection {
+  padding-left:3ch;
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black; */
+   
+}
+
+
+#informatin{
+    font-family: font2;
+    color: rgb(6, 50, 88);
+   padding-top: 5ch;
+  font-size: 16pt;
+}
+
+#cityInput{
+   
+    width: 37ch;
+    height: 4ch;
+    border: none;
+    border-radius: 5px;
+    font-size: 16pt;
+    padding-left :2ch;
+
+}
+
+#cityInput::placeholder{
+    font-size: 15pt;
+    padding: 5px;
+    color: rgb(156, 156, 156);
+   
+}
+
+
+#submitBtn{
+    background-color: rgb(214, 228, 255);
+    width: 15ch;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size:12pt ;
+    
+}
+
+
+#text{
+    font-family:font1;
+    color: rgb(6, 50, 88);
+
+    padding-bottom: 1CH;
+    font-size:50pt ;
+}
+
