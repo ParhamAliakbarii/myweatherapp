@@ -61,7 +61,7 @@ body {
 
 #cityInput{
    
-    width: 37ch;
+    width: 35ch;
     height: 4ch;
     border: none;
     border-radius: 5px;
@@ -74,6 +74,8 @@ body {
     font-size: 15pt;
     padding: 5px;
     color: rgb(156, 156, 156);
+    font-family: font2;
+ 
    
 }
 
@@ -85,6 +87,7 @@ body {
     border: none;
     border-radius: 5px;
     font-size:12pt ;
+    font-family: font2;
     
 }
 
